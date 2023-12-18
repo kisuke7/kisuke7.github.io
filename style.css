@@ -1,0 +1,56 @@
+ body {
+    font-family: "Kanit","inter";
+    background-color: #081b29;
+    color: #ffffff;
+} 
+
+.header{
+    position: fixed;
+    top: 0  ;
+    left: 0; 
+
+    width: 80%;
+    padding: 5px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content:space-between;  
+    align-items: center ;
+    z-index: 100;
+}           
+.logo {
+    font-size:35px ;
+    font: bolder;
+    color: rgb(255, 255, 255);
+    font-weight:700;
+}
+
+.navbar a {
+    font:bolder;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px ;
+    transition: 2s;
+}
+
+.navbar a:hover{
+    color: #ffffff;
+
+}
+
+.home  {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 0 10%;
+}
+
+.homecontent {
+    max-width: 600px;
+}
+
+.homecontent h1 {
+    font-size: 30px;
+}
